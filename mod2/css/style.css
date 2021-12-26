@@ -7,6 +7,9 @@
 
 .row{
 	width: 100%;
+}
+
+#main_h{
 	text-align: center;
 }
 
@@ -14,7 +17,7 @@ section{
 	border: 1px solid black;
 	position: relative;
 	padding: 40px 10px 10px 10px;
-	margin: 1%;
+	margin: 10px;
 	background-color: lightgray;
 	border-radius: 20px;
 }
@@ -49,8 +52,8 @@ section p{
 
 @media (min-width:  992px){
 	.size{
-		width: 31.33%;
 		float: left;
+		width: 33.33%;
 }
 
 }
@@ -58,11 +61,11 @@ section p{
 
 @media (min-width:  767px) and (max-width:  991px){
 	.size{
-		width: 48%;
+		width: 50%;
 		float: left;
 }
 	#section3{
-		width: 98%;
+		width: 100%;
 	}
 	
 }
@@ -71,7 +74,7 @@ section p{
 @media (max-width: 767px){
 
 	.size{
-		width: 98%;
+		width: 100%;
 		float: left;
 	}
 }
